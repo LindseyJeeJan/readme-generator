@@ -109,7 +109,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  :movie_camera: [Walkthrough video](http://???)
+  :movie_camera: [Walkthrough video](https://drive.google.com/file/d/1DVhy0uBv1KMpC9L0SGj92L6Dccq5aHDf/view)
 
   :camera: ![Readme code](assets/images/screenshot.png)
 
