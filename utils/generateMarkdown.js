@@ -1,7 +1,6 @@
 // Function that returns a license badge based on which license is passed in.
 function renderLicenseBadge(license) {
-    // `Switch` statement that accepts an `license` parameter and assigns the appropriate URL to the badge to display. 
-    // If there is no license, return an empty string.
+    // `Switch` statement that accepts an `license` parameter and assigns the appropriate URL to the badge to display. If there is no license, return an empty string.
     let badge = ' ';
 
     switch(license) {
@@ -37,8 +36,7 @@ function renderLicenseBadge(license) {
     
 }
 
-// Function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link. If there is no license, return an empty string.
 function renderLicenseLink(license) {
       // `Switch` statement that accepts an `license` parameter and assigns the appropriate URL to display. 
     let licenseWeb = ' ';
@@ -76,8 +74,7 @@ function renderLicenseLink(license) {
 
 }
 
-// Function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README. If there is no license, returns an empty string.
 function renderLicenseSection(license) {
     const licenseURL = renderLicenseLink(license);
     console.log('licenseURL', licenseURL);
@@ -86,7 +83,6 @@ function renderLicenseSection(license) {
 }
 
 // Function to generate markdown for README
-// TODO: update video link
 function generateMarkdown(data) {
   const license = data.license;
   const licenseSection = renderLicenseSection(license);
@@ -101,9 +97,8 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [License](#license)
-  * [Contribution](#contribution)
+  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
@@ -113,8 +108,10 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+
   :movie_camera: [Walkthrough video](http://???)
-  :camera: ![Readme screenshot](assets/images/screenshot.png)
+
+  :camera: ![Readme code](assets/images/screenshot.png)
 
   ## License
   ${licenseSection}
@@ -125,6 +122,7 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.tests}
+  If you would like to contribute and help us by writing them, see the [Contributing](#contributing) section.
 
   ## Questions
   For more information about me and my other projects, visit my [GitHub profile](https://github.com/${data.github}).
