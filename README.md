@@ -19,7 +19,7 @@
   ## Usage
   Open the index.js file using node in the command line `node index.js`. Enter an answer for each of the questions in the prompt and your README.md file will be automatically be generated in the same directory. Please watch the sample video for a demo of the application. 
 
-  :movie_camera: [Walkthrough video](https://drive.google.com/file/d/1DVhy0uBv1KMpC9L0SGj92L6Dccq5aHDf/view)
+  :movie_camera: [Walkthrough video](https://drive.google.com/file/d/1-MkZkyA8LZ5mUMFACunCokUpeo7PaZS3/view)
 
   :camera: ![Readme code](assets/images/screenshot.png)
 
